@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter','Lexend Deca',sans-serif;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    margin: 0;
+    padding: 0;
+    height: 440px;
+    width: 1110px;
+    background-color: hsl(244, 38%, 16%);
+    display: grid;
+    grid-template-columns: 560px 540px;
+    border-radius: 10px;
+}
+.left{
+    display:grid;
+     margin: 70px 50px 50px 70px;
+}
+.right{
+     background-image: url(./images/image-header-desktop.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     height: 440px;
+     width: 550px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     
+}
+
+.left h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 35px;
+    font-weight: 750;
+}
+.left h3 span{
+    color: hsl(277, 64%, 61%);
+}
+.left p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 35px;
+    font-weight: 300;
+    font-size: 21px;
+}
+.counts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+}
+.counts h4{
+    padding-top: 8px;
+    color:hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
